@@ -1,8 +1,8 @@
 """A legegyszerűbb Jev + Opus 5.5 példa: a Jev dönt, az Opus gondolkodik.
 
-Telepítés:  pip install typesafe-sdk anthropic
+Telepítés:  uv sync
 Kulcsok:    export TYPESAFE_API_KEY=...   ANTHROPIC_API_KEY=...
-Futtatás:   python jev_opus.py "Írj egy Python függvényt, ami eldönti, hogy egy szám prím-e"
+Futtatás:   uv run jev_opus.py "Írj egy Python függvényt, ami eldönti, hogy egy szám prím-e"
 """
 
 import sys
