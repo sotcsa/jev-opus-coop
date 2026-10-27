@@ -12,17 +12,19 @@ a Jev dönt, az Opus gondolkodik, a kód végrehajt, az ember jóváhagy.
 
 ## Futtatás
 
+[uv](https://docs.astral.sh/uv/) kell hozzá; a függőségeket a `pyproject.toml` és a `uv.lock` rögzíti.
+
 ```bash
-pip install -r requirements.txt
+uv sync
 export TYPESAFE_API_KEY=...
 export ANTHROPIC_API_KEY=...
-python jev_opus.py "Írj egy Python függvényt, ami eldönti, hogy egy szám prím-e"
+uv run jev_opus.py "Írj egy Python függvényt, ami eldönti, hogy egy szám prím-e"
 ```
 
 Kulcsok nélkül, ál-szerverekkel is kipróbálható:
 
 ```bash
-python tests/demo_mock.py
+uv run tests/demo_mock.py
 ```
 
 ## Mit érdemes tudni

@@ -1,0 +1,10 @@
+[project]
+name = "jev-opus-coop"
+version = "0.1.0"
+description = "Minimal example: Jev decides, Claude Opus 5.5 thinks"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=2.3.0",
+    "typesafe-sdk>=0.7.5",
+]
