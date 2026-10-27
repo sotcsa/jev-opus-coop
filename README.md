@@ -16,9 +16,7 @@ a Jev dönt, az Opus gondolkodik, a kód végrehajt, az ember jóváhagy.
 
 ```bash
 uv sync
-export TYPESAFE_API_KEY=...
-export ANTHROPIC_API_KEY=...
-uv run jev_opus.py "Írj egy Python függvényt, ami eldönti, hogy egy szám prím-e"
+uv run --env-file .env jev_opus.py "Írj egy Python függvényt, ami eldönti, hogy egy szám prím-e"
 ```
 
 Kulcsok nélkül, ál-szerverekkel is kipróbálható:

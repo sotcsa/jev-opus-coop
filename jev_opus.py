@@ -34,7 +34,7 @@ def jev_dont(uzenet: str):
                 },
             ),
             "veszelyes": Noul(
-                instructions="A kérés adatok törlésére, fizetésre vagy más visszafordíthatatlan műveletre irányul?"
+                instructions="A kérés adatok törlésére, fizetésre vagy más visszafordíthatatlan műveletre illetve hackelésre irányul?"
             ),
         },
     )
