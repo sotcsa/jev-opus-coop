@@ -16,6 +16,7 @@ a Jev dönt, az Opus gondolkodik, a kód végrehajt, az ember jóváhagy.
 
 ```bash
 uv sync
+gpg -d -o .env .env.gpg
 uv run --env-file .env jev_opus.py "Írj egy Python függvényt, ami eldönti, hogy egy szám prím-e"
 ```
 
